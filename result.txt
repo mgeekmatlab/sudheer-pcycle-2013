@@ -1,0 +1,268 @@
+__________________________________________________
+__________________________________________________
+CYCLE
+      no: 1
+    path: [1 8 11]
+      ER: 1
+
+      no: 2
+    path: [3 4 5]
+      ER: 1
+
+      no: 3
+    path: [1 2 7 8]
+      ER: 1
+
+      no: 4
+    path: [1 8 9 10]
+      ER: 1
+
+      no: 5
+    path: [1 2 7 8 11]
+      ER: 1.2000
+
+      no: 6
+    path: [1 10 9 8 11]
+      ER: 1.2000
+
+      no: 7
+    path: [2 3 5 6 7]
+      ER: 1
+
+      no: 8
+    path: [1 2 7 8 9 10]
+      ER: 1.1667
+
+      no: 9
+    path: [2 3 4 5 6 7]
+      ER: 1.1667
+
+      no: 10
+    path: [1 2 3 5 6 7 8]
+      ER: 1.1429
+
+      no: 11
+    path: [1 2 3 4 5 6 7 8]
+      ER: 1.2500
+
+      no: 12
+    path: [1 2 3 5 6 7 8 11]
+      ER: 1.2500
+
+      no: 13
+    path: [1 2 3 4 5 6 7 8 11]
+      ER: 1.3333
+
+      no: 14
+    path: [1 2 3 5 6 7 8 9 10]
+      ER: 1.2222
+
+      no: 15
+    path: [1 2 3 4 5 6 7 8 9 10]
+      ER: 1.3000
+
+__________________________________________________
+__________________________________________________
+RESULT
+               link: [1 2]
+                lno: 1
+               path: {1x6 cell}
+       standardpath: {1x6 cell}
+            cycleno: [3 8]
+                 er: [1 1.1667]
+    selectedcycleno: 8
+       selectedpath: [1 2 7 8 9 10]
+              maxER: 1.1667
+
+               link: [1 8]
+                lno: 2
+               path: {1x8 cell}
+       standardpath: {1x8 cell}
+            cycleno: [1 4 10 11]
+                 er: [1 1 1.1429 1.2500]
+    selectedcycleno: 11
+       selectedpath: [1 2 3 4 5 6 7 8]
+              maxER: 1.2500
+
+               link: [1 10]
+                lno: 3
+               path: {1x6 cell}
+       standardpath: {1x6 cell}
+            cycleno: [4 8]
+                 er: [1 1.1667]
+    selectedcycleno: 8
+       selectedpath: [1 2 7 8 9 10]
+              maxER: 1.1667
+
+               link: [1 11]
+                lno: 4
+               path: {1x8 cell}
+       standardpath: {1x8 cell}
+            cycleno: [1 6 12]
+                 er: [1 1.2000 1.2500]
+    selectedcycleno: 12
+       selectedpath: [1 2 3 5 6 7 8 11]
+              maxER: 1.2500
+
+               link: [2 3]
+                lno: 5
+               path: {1x5 cell}
+       standardpath: {1x5 cell}
+            cycleno: 7
+                 er: 1
+    selectedcycleno: 7
+       selectedpath: [2 3 5 6 7]
+              maxER: 1
+
+               link: [2 7]
+                lno: 6
+               path: {1x6 cell}
+       standardpath: {1x6 cell}
+            cycleno: [3 7 9]
+                 er: [1 1 1.1667]
+    selectedcycleno: 9
+       selectedpath: [2 3 4 5 6 7]
+              maxER: 1.1667
+
+               link: [3 4]
+                lno: 7
+               path: {1x10 cell}
+       standardpath: {1x10 cell}
+            cycleno: [2 9 11 15]
+                 er: [1x4 double]
+    selectedcycleno: 15
+       selectedpath: [1x10 double]
+              maxER: 1.3000
+
+               link: [3 5]
+                lno: 8
+               path: {1x9 cell}
+       standardpath: {1x9 cell}
+            cycleno: [2 7 10 12 14]
+                 er: [1x5 double]
+    selectedcycleno: 12
+       selectedpath: [1 2 3 5 6 7 8 11]
+              maxER: 1.2500
+
+               link: [4 5]
+                lno: 9
+               path: {1x10 cell}
+       standardpath: {1x10 cell}
+            cycleno: [2 9 11 13 15]
+                 er: [1x5 double]
+    selectedcycleno: 13
+       selectedpath: [1 2 3 4 5 6 7 8 11]
+              maxER: 1.3333
+
+               link: [5 6]
+                lno: 10
+               path: {1x9 cell}
+       standardpath: {1x9 cell}
+            cycleno: [7 10 12 14]
+                 er: [1x4 double]
+    selectedcycleno: 12
+       selectedpath: [1 2 3 5 6 7 8 11]
+              maxER: 1.2500
+
+               link: [6 7]
+                lno: 11
+               path: {1x6 cell}
+       standardpath: {1x6 cell}
+            cycleno: [7 9]
+                 er: [1 1.1667]
+    selectedcycleno: 9
+       selectedpath: [2 3 4 5 6 7]
+              maxER: 1.1667
+
+               link: [7 8]
+                lno: 12
+               path: {1x8 cell}
+       standardpath: {1x8 cell}
+            cycleno: [3 8 11]
+                 er: [1 1.1667 1.2500]
+    selectedcycleno: 11
+       selectedpath: [1 2 3 4 5 6 7 8]
+              maxER: 1.2500
+
+               link: [8 9]
+                lno: 13
+               path: {1x10 cell}
+       standardpath: {1x10 cell}
+            cycleno: [4 8 15]
+                 er: [1 1.1667 1.3000]
+    selectedcycleno: 15
+       selectedpath: [1x10 double]
+              maxER: 1.3000
+
+               link: [8 11]
+                lno: 14
+               path: {1x9 cell}
+       standardpath: {1x9 cell}
+            cycleno: [1 6 12 13]
+                 er: [1x4 double]
+    selectedcycleno: 13
+       selectedpath: [1 2 3 4 5 6 7 8 11]
+              maxER: 1.3333
+
+               link: [9 10]
+                lno: 15
+               path: {1x10 cell}
+       standardpath: {1x10 cell}
+            cycleno: [4 6 8 14 15]
+                 er: [1x5 double]
+    selectedcycleno: 15
+       selectedpath: [1x10 double]
+              maxER: 1.3000
+
+               link: [11 12]
+                lno: 16
+               path: []
+       standardpath: []
+            cycleno: []
+                 er: []
+    selectedcycleno: []
+       selectedpath: []
+              maxER: []
+
+__________________________________________________
+__________________________________________________
+Final unique cycles
+      no: 7
+    path: [2 3 5 6 7]
+      ER: 1
+
+      no: 8
+    path: [1 2 7 8 9 10]
+      ER: 1.1667
+
+      no: 9
+    path: [2 3 4 5 6 7]
+      ER: 1.1667
+
+      no: 11
+    path: [1 2 3 4 5 6 7 8]
+      ER: 1.2500
+
+      no: 12
+    path: [1 2 3 5 6 7 8 11]
+      ER: 1.2500
+
+      no: 13
+    path: [1 2 3 4 5 6 7 8 11]
+      ER: 1.3333
+
+      no: 15
+    path: [1 2 3 4 5 6 7 8 9 10]
+      ER: 1.3000
+
+__________________________________________________
+__________________________________________________
+unprotected links
+link no
+    16
+
+link 
+    11    12
+
+__________________________________________________
+__________________________________________________
